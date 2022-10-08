@@ -5,7 +5,7 @@ function clickHandler() {
 
 
 export function CustomButtom2() {
-    return (<button style={{ marginTop: '20px' }} className='buttom green' onClick={clickHandler}>Boton de class component</button>
+    return (<button style={{ marginTop: '20px' }} className='buttom green' onClick={clickHandler}>Boton de funcion component</button>
     );
 }
 
