@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { Octocat } from './Octocat';
+import { Text } from './Text';
+import { CustomButtom } from './Components/CustomButtom';
+import { CustomButtom2 } from './Components/CustomButtom2';
 
 function App() {
   return (
@@ -17,6 +21,10 @@ function App() {
         >
           Learn React
         </a>
+        <Octocat />
+        <Text />
+        <CustomButtom />
+        <CustomButtom2 />
       </header>
     </div>
   );
